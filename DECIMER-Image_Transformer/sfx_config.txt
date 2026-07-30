@@ -1,0 +1,7 @@
+;!@Install@!UTF-8!
+Title="DECIMER Desktop 安装程序"
+BeginPrompt="即将安装 DECIMER Desktop（约 3.8 GB）。继续吗？"
+InstallPath="%LOCALAPPDATA%\\Programs\\DECIMER Desktop"
+RunProgram="install_helper.cmd"
+GUIMode="1"
+;!@InstallEnd@!

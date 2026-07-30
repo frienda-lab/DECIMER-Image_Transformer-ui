@@ -1,0 +1,70 @@
+# ==============================
+# 虚拟环境 & Python 缓存
+# ==============================
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ==============================
+# 大型模型文件
+# ==============================
+models/
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.savedmodel/
+saved_model/
+checkpoints/
+*.weights
+
+# ==============================
+# 打包产物
+# ==============================
+release/
+package_validation/
+*.exe
+*.msi
+
+# ==============================
+# 数据集 & 验证
+# ==============================
+validation_samples/
+segmentation_validation/
+DECIMER_results/
+
+# ==============================
+# Validation & 测试数据
+# ==============================
+Validation/
+*.tar.gz
+*.ods
+
+# ==============================
+# 大文件 (>5MB)
+# ==============================
+DECIMER_Segmentation_notebook.ipynb
+
+# ==============================
+# GitHub Actions (避免权限问题)
+# ==============================
+.github/workflows/
+
+# ==============================
+# IDE & 系统
+# ==============================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.tmp
